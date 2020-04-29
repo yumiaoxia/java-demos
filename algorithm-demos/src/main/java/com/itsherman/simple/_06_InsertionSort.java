@@ -25,10 +25,10 @@ public class _06_InsertionSort {
     }
 
     public static void main(String[] args) {
-        int size = 10;
+        int size = 10000;
         int[] nums = new int[size];
         for (int i = 0; i < size; i++) {
-            nums[i] = new Random().nextInt(99);
+            nums[i] = new Random().nextInt(9999);
         }
         System.out.println(Arrays.toString(nums));
         Instant start = Instant.now();
